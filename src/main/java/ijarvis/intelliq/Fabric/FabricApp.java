@@ -1,6 +1,5 @@
 package ijarvis.intelliq.Fabric;
 
-import ijarvis.intelliq.FabricCA.SampleUserCA;
 import ijarvis.intelliq.LedgerRecord;
 import org.apache.log4j.Logger;
 import org.hyperledger.fabric.sdk.*;

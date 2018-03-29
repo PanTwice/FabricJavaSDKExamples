@@ -1,7 +1,5 @@
 package ijarvis.intelliq.Fabric;
 
-import org.hyperledger.fabric.sdk.security.CryptoSuite;
-import org.hyperledger.fabric_ca.sdk.HFCAClient;
 import org.hyperledger.fabric_ca.sdk.exception.InvalidArgumentException;
 
 import java.net.MalformedURLException;

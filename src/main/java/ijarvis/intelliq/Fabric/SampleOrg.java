@@ -1,6 +1,5 @@
 package ijarvis.intelliq.Fabric;
 
-import ijarvis.intelliq.Fabric.SampleUser;
 import org.hyperledger.fabric.sdk.Peer;
 import org.hyperledger.fabric.sdk.User;
 import org.hyperledger.fabric_ca.sdk.HFCAClient;

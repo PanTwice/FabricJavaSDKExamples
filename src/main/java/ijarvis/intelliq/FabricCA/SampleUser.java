@@ -1,7 +1,6 @@
 package ijarvis.intelliq.FabricCA;
 
 import io.netty.util.internal.StringUtil;
-import org.bouncycastle.util.encoders.Hex;
 import org.hyperledger.fabric.sdk.Enrollment;
 import org.hyperledger.fabric.sdk.User;
 
