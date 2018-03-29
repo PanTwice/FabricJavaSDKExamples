@@ -19,11 +19,11 @@ import java.util.UUID;
  */
 public class AppTest {
     private static Logger logger=Logger.getLogger(AppTest.class);
-    private static String CONNFIG_Orderer="grpc://192.168.188.111:7050";
-    private static String CONNFIG_Peer0Org1="grpc://192.168.188.112:7051";
-    private static String CONNFIG_Peer1Org1="grpc://192.168.188.113:7051";
-    private static String CONNFIG_Peer0Org2="grpc://192.168.188.114:7051";
-    private static String CONNFIG_Peer1Org2="grpc://192.168.188.115:7051";
+    private static String CONNFIG_Orderer="grpc://127.0.0.1:7050";
+    private static String CONNFIG_Peer0Org1="grpc://127.0.0.1:7051";
+    private static String CONNFIG_Peer1Org1="grpc://127.0.0.1:7051";
+    private static String CONNFIG_Peer0Org2="grpc://127.0.0.1:7051";
+    private static String CONNFIG_Peer1Org2="grpc://127.0.0.1:7051";
     private static String CHANNELID="epointchannel";
     private static LedgerRecord PERSONINFO=new LedgerRecord("liuwenru","{name:\"liuwenhua\",cname:\"刘文华\"}");
     @Before

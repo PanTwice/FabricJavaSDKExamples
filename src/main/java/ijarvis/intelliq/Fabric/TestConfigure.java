@@ -18,10 +18,10 @@ public class TestConfigure {
     public static HashMap<String,SampleOrg> getConfigure() throws MalformedURLException, InvalidArgumentException {
         HashMap<String,SampleOrg> orgHashMap=new HashMap<>();
         SampleOrg org1=new SampleOrg("org1","Org1MSP");
-        org1.addPeerLocation("peer0org1","grpc://192.168.188.112:7051");
-        org1.addPeerLocation("peer1org1","grpc://192.168.188.113:7051");
-        org1.addOrdererLocation("orderer","grpc://192.168.188.111:7050");
-        org1.setCALocation("http://192.168.188.110:7054");
+        org1.addPeerLocation("peer0org1","grpc://127.0.0.1:7051");
+        org1.addPeerLocation("peer1org1","grpc://127.0.0.1:7051");
+        org1.addOrdererLocation("orderer","grpc://127.0.0.1:7050");
+        org1.setCALocation("http://127.0.0.1:7054");
         SampleUser Adminorg1=new SampleUser("peer","Admin","Org1MSP");
         SampleUser User1org1=new SampleUser("peer","User1","Org1MSP");
         org1.addUser(Adminorg1);
@@ -30,9 +30,9 @@ public class TestConfigure {
         
 
         SampleOrg org2=new SampleOrg("org2","Org2MSP");
-        org2.addPeerLocation("peer0org2","grpc://192.168.188.114:7051");
-        org2.addPeerLocation("peer1org2","grpc://192.168.188.115:7051");
-        org2.addOrdererLocation("orderer","grpc://192.168.188.111:7050");
+        org2.addPeerLocation("peer0org2","grpc://127.0.0.1:7051");
+        org2.addPeerLocation("peer1org2","grpc://127.0.0.1:7051");
+        org2.addOrdererLocation("orderer","grpc://127.0.0.1:7050");
         SampleUser Adminorg2=new SampleUser("peer","Admin","Org2MSP");
         SampleUser User1org2=new SampleUser("peer","User1","Org2MSP");
         org1.addUser(Adminorg2);
